@@ -72,3 +72,24 @@ header{
     border-radius: 30px;
     background: #40b8e8;
 }
+
+/* SECTION CENTER */
+
+.section{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 1px solid green;
+}
+
+.section__left{
+    position: absolute;
+    left: 4rem;
+}
+
+.section__right{
+    position: absolute;
+    right: 4rem;
+}
